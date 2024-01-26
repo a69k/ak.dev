@@ -1,0 +1,48 @@
+$eBlue: #240090;
+
+nav{
+  margin-bottom:0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1vh;
+  height: 7vh;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(3.69px) saturate(6.9);
+  -webkit-backdrop-filter: blur(3px) saturate(3);
+
+
+  .logo{
+    font-family: 'space mono';
+    text-decoration: none;
+    font-size: 3rem;
+
+    #dev{
+      color: chartreuse;
+    }
+    &:hover{
+      color:white;
+    }
+  }
+  
+  ul li{
+    font-family: 'space mono';
+    font-size: 1.25rem;
+    display: inline-block;
+    margin-right: 2rem;
+  }
+
+  a {
+    opacity: 1;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+
+    &:hover{
+      color: chartreuse;
+      transition: .6s;
+    }
+  } 
+}
+

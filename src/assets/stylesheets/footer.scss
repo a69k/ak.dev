@@ -1,0 +1,46 @@
+$nGreen: #b7d435;
+$eBlue: #240090;
+$wGrey: #83836c;
+$lwGrey: #AEAE9D;
+
+.footer{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  bottom: 0;
+  width: 100%;
+
+  .time{
+    p{
+      margin-bottom:0;
+      font-size: 0.85rem;
+      color: $nGreen;
+    }
+  }
+  .footerIcons{
+    display: flex;
+    justify-content: center;
+    height: 4vh;
+
+    li{
+      list-style-type: none;
+      padding: 0.69rem;
+    
+    img{
+      height:3vh;
+      &:hover{
+        fill:white;
+      }
+    }
+    }
+  } 
+
+p{
+  margin-top: 0.5rem;
+  font-family: space mono;
+  color:$lwGrey;
+  font-size: 0.8rem;
+  text-align: center;
+
+}
+
+}

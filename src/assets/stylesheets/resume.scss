@@ -1,0 +1,58 @@
+hr {
+  border-color: rgb(55, 108, 2);
+}
+#intro{
+  margin-top: 2rem;
+  font-family: space mono;
+  h1{
+    font-size: 2.69rem;
+    margin: 0rem;
+  }
+  h2{
+    margin: 0rem;
+    color: rgb(152, 152, 152);
+  }
+  p{
+    margin-top: 0rem;
+    color: rgb(126, 130, 108);
+  }
+}
+
+.resumeSection{
+  padding-right: 5rem;
+  padding-top: 0.69rem;
+  padding-bottom: 0.69rem;
+  font-family: space mono;
+  
+  .resumeItem{
+    padding-right: 3rem;
+
+  .resumeSectionTitle{
+    font-size:1.69rem;
+    margin-bottom: 0;
+  }
+  .resumeContentTitle{
+    margin-left: 2rem;
+    font-size: 1.69em;
+    color:#ffffff;
+    margin-bottom: 0;
+  }
+  .resumeContent{
+    margin-right: 0rem;
+    margin-left: 2rem;
+    font-size: 1rem;
+    color:rgb(189, 187, 187);
+    line-height: 1 rem;
+  }
+  span{
+    margin: 0px;  
+    float:right;
+  }
+  .resumePoint{
+    font-size:1.25rem;
+    padding-right: 0rem;
+    float:none;
+    color:white;
+  }
+}
+}

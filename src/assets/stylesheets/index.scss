@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@font-face {
+  font-family: 'trafika';
+  src: url(../Fonts/trafika-sans-trial.otf) format('opentype');
+};
+:root {
+
+  color-scheme: light dark;
+  color: rgba(251, 248, 252, 0.87);
+  background-color: rgb(23 23 23);;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  ::selection {
+    background-color: rgb(66, 66, 66);
+    color: rgb(116, 220, 12);
+}
+}
+
+
+@keyframes rainbow{
+  0%{color:rgb(138, 84, 255)}
+  20%{color:rgb(14, 128, 73)}
+  40%{color:rgb(227, 64, 19)}
+  60%{color:rgb(221, 133, 10)}
+  80%{color:rgb(205, 14, 195)}
+  100%{color:rgb(107, 29, 163)}
+}
+
+body {
+
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+.display-linebreak {
+  white-space: pre-line;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

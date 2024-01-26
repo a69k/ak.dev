@@ -1,0 +1,35 @@
+.rpsGame{
+  height:25vh;
+.rps{
+  display: flex;
+  justify-content: center;
+  
+  button{
+    margin-top: 10px;
+    font-size: 75px;
+    margin-right:10px;
+    padding: 5px;
+    border-radius: 30px;
+    background: linear-gradient(135deg, rgba(133, 147, 137, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(15px);
+    border:none;
+    box-shadow: 0 8px 21px 0 rgba(0, 0, 0, 0.37);;
+
+    &:hover{
+      background-color: #a1dc23;
+      cursor: pointer;    
+    }
+  }
+  #reset{
+    padding-bottom: 10px;
+    margin-left: 50px
+  }
+}
+
+.rpsRes{
+  text-align: center;
+  font-size: 22px;
+  font-family: space mono;
+}
+}

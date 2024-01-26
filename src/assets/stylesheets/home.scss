@@ -1,0 +1,119 @@
+$eBlue: #240090;
+$wGrey: #868673;
+$lwGrey: #b4b4a5;
+
+.home{
+
+  .intro{
+    /*background-image: url('src/assets/Vectors/reactG.svg') ;
+    background-repeat: no-repeat;
+    background-position: 125% 10%;
+    background-size: 35%;
+    */
+    margin-bottom: 3rem;
+
+    h1{
+      color:white;
+      font-family: space mono;
+      font-size:3.420em;
+      word-spacing: -0.69rem;
+      margin-bottom: 0;
+    }
+    p{
+      color: rgb(148, 148, 148);
+      font-family: space mono;
+      font-size: .85rem;
+      margin-top: 0;
+    }
+    #cursor{
+      font-size:2.6rem;
+      color:chartreuse;
+    }
+  }
+
+  .content{
+    padding-right: 5rem;
+    h2{
+      color: $lwGrey;
+      font-size: 18px;
+      font-family: space mono;
+
+      li{
+        color: $wGrey; 
+        font-size: 16px;
+      }
+      margin-bottom: 2em;
+      a{
+        color: inherit;
+        text-decoration-color: chartreuse;
+        &:hover{
+          color: yellowgreen;
+        }
+      }
+    }
+    //----------------------------------//
+
+    #projLabel{
+      font-size: 2rem;
+      font-family: space mono;
+    }
+      .proj{
+        display: flex;
+        h1{
+          font-family: trafika;
+          margin-top: 6.9rem;
+          margin-bottom: 1em;
+        }
+        .cards{
+          cursor: pointer;
+          margin: 15px;
+          width: 6.9em;
+          height: 6.9em;
+          margin-top: 10px;
+          font-size: 2rem;
+          padding: 5px;
+          border-radius: 30px;
+          background: linear-gradient(135deg, rgba(133, 147, 137, 0.1), rgba(255, 255, 255, 0));
+          backdrop-filter: blur(6.9px);
+          -webkit-backdrop-filter: blur(6.9px);
+          border:none;
+          box-shadow: 0 8px 21px 0 rgba(0, 0, 0, 0.2);
+          text-decoration: none;
+          
+          &:hover{
+            background: linear-gradient(135deg, rgba(228, 239, 231, 0.1), rgba(235, 207, 207, 0));
+
+          }
+
+          .projName{
+            color: $lwGrey;
+            
+            padding-left: 1rem;
+            font-size: 2rem;
+            font-family: trafika;
+            margin-bottom: 0;
+          }
+          .projInfo{
+            color:$wGrey;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            font-size: 0.9rem;
+            font-family: trafika;
+          }
+          img{
+            
+            height:24px;
+            float:right; 
+            padding-top: 1rem; 
+            margin-right: 1rem;
+          } 
+          &:hover{
+            h3{color: chartreuse;}
+            p{color: $lwGrey;}
+            
+            
+          }
+      }
+    }
+  }
+}
