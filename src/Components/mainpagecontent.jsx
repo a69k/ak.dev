@@ -28,7 +28,7 @@ export default function content() {
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
 
   </a>
-  <a class='cards' href="https://github.com/a04k/Portfolio" target="_blank" rel="noopener noreferrer">
+  <a class='cards' href="https://github.com/a04k/ak.dev" target="_blank" rel="noopener noreferrer">
     <h3 class="projName">PortfolioB</h3>
     <p class="projInfo">my portfolio & blog website (the site you're on right now!)</p>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
@@ -43,6 +43,6 @@ export default function content() {
   </a>
   </div> 
   </div>
-  )
+  );
 }
 

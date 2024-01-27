@@ -15,7 +15,7 @@ $lwGrey: #b4b4a5;
     h1{
       color:white;
       font-family: space mono;
-      font-size:3.420em;
+      font-size:3.420rem;
       word-spacing: -0.69rem;
       margin-bottom: 0;
     }
@@ -101,7 +101,6 @@ $lwGrey: #b4b4a5;
             font-family: trafika;
           }
           img{
-            
             height:24px;
             float:right; 
             padding-top: 1rem; 
@@ -117,3 +116,62 @@ $lwGrey: #b4b4a5;
     }
   }
 }
+@media (max-width: 914px) {
+  .home{
+    .intro{
+      h1{
+        font-family: trafika;
+        word-spacing: 0;
+        font-size: 42px;
+
+      }
+      p{
+        padding-right: 20vw;
+      }
+      #cursor{
+        visibility: hidden;
+        }
+      margin-bottom: 1.69rem;
+    }
+    .content{
+      padding-right: 0;
+
+      h2{
+        font-size:14px;
+      
+      li{
+        font-size: 14px;
+      }
+    }
+  
+  #projLabel{
+    font-size: 20px;
+    font-family: space mono;
+  }
+
+    .proj{
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+
+      .cards{
+        width: 80%;
+        color: red;
+        height: 145px;
+        border-radius: 20px;
+        margin: 2vh;
+        margin-bottom: 0rem;
+        .projName{
+          font-size: 20px;
+        }
+        .projInfo{
+          font-size: 12px;
+        }
+        img{
+          height: 18px;
+        }
+      }
+  }
+  }
+}
+} 

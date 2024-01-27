@@ -1,0 +1,110 @@
+hr {
+  border-color: rgb(55, 108, 2);
+}
+#intro{
+  margin-top: 2rem;
+  font-family: space mono;
+  h1{
+    font-size: 2.69rem;
+    margin: 0rem;
+  }
+  h2{
+    margin: 0rem;
+    color: rgb(152, 152, 152);
+  }
+  p{
+    margin-top: 0rem;
+    color: rgb(126, 130, 108);
+  }
+}
+
+.resumeSection{
+  padding-right: 5rem;
+  padding-top: 0.69rem;
+  padding-bottom: 0.69rem;
+  font-family: space mono;
+  
+  .resumeItem{
+    padding-right: 3rem;
+
+  .resumeSectionTitle{
+    font-size:1.69rem;
+    margin-bottom: 0;
+  }
+  .resumeContentTitle{
+    margin-left: 2rem;
+    font-size: 1.69em;
+    color:#ffffff;
+  }
+  .resumeContent{
+    margin-right: 0rem;
+    margin-left: 2rem;
+    font-size: 1rem;
+    color:rgb(189, 187, 187);
+    line-height: 1 rem;
+  }
+  span{
+    margin: 0px;  
+    float:right;
+  }
+  .resumePoint{
+    font-size:1.25rem;
+    padding-right: 0rem;
+    float:none;
+    color:white;
+  }
+}
+}
+@media (max-width: 914px) {
+
+  #intro{
+    font-family: space mono;
+    h1{
+      font-size: 2.25rem;
+    }
+    h2{
+      font-size: 0.95rem;
+      color: rgb(152, 152, 152);
+    }
+    p{
+      font-size:0.9rem;
+      color: rgb(126, 130, 108);
+    }
+  }
+  
+  .resumeSection{
+      font-family: space mono;
+
+    .resumeSectionTitle{
+      font-size:1.25rem;
+      margin-bottom: 0;
+    }
+
+    .resumeItem{
+      padding-left: 0rem;
+      padding-right: 0rem;
+    .resumeContentTitle{
+      margin-left: 0.5rem;
+      font-size: 1.2rem;
+      color:#ffffff;
+      margin-bottom: 0;
+    }
+    .resumeContent{
+      margin-left: 0.75rem;
+      margin-top: 1rem;
+      font-size: 0.5rem;
+      color:rgb(189, 187, 187);
+    }
+    span{
+    float: none;
+    
+    .resumePoint{
+      font-size:1rem;
+      padding-right: 0rem;
+      float:none;
+      color:white;
+    }
+  }
+  }
+  }
+}

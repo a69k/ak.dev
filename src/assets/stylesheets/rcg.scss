@@ -1,0 +1,117 @@
+#intro {
+  margin-top: 2rem;
+  font-family: 'Space Mono';
+  
+  h1 {
+    font-size: 2.25rem;
+    margin: 0;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 0.95rem;
+    color: rgb(152, 152, 152);
+  }
+  
+  p {
+    margin-top: 0;
+    font-size: 0.9rem;
+    color: rgb(126, 130, 108);
+  }
+}
+
+.resumeSection {
+  font-family: 'Space Mono';
+  padding-right: 1rem;
+  padding-top: 0.69rem;
+  padding-bottom: 0.69rem;
+  
+  .resumeItem {
+    padding-right: 1rem;
+    
+    .resumeSectionTitle {
+      font-size: 1.25rem;
+      margin-bottom: 0;
+    }
+    
+    .resumeContentTitle {
+      margin-left: 0.5rem;
+      font-size: 1.2rem;
+      color: #ffffff;
+      margin-bottom: 0;
+    }
+    
+    .resumeContent {
+      margin-left: 0.75rem;
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      color: rgb(189, 187, 187);
+    }
+    
+    span {
+      margin: 0;
+      float: none;
+    }
+    
+    .resumePoint {
+      font-size: 1rem;
+      padding-right: 0;
+      float: none;
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 914px) {
+  #intro {
+    h1 {
+      font-size: 1.75rem;
+    }
+    
+    h2 {
+      font-size: 0.85rem;
+    }
+    
+    p {
+      font-size: 0.8rem;
+    }
+  }
+
+  .resumeSection {
+    padding-right: 0.5rem;
+    
+    .resumeSectionTitle {
+      font-size: 1.1rem;
+    }
+    
+    .resumeItem {
+      padding-left: 0;
+      padding-right: 0;
+      
+      .resumeContentTitle {
+        margin-left: 0.25rem;
+        font-size: 1rem;
+        color: #ffffff;
+        margin-bottom: 0;
+      }
+      
+      .resumeContent {
+        margin-left: 0.5rem;
+        margin-top: 0.5rem;
+        font-size: 0.7rem;
+        color: rgb(189, 187, 187);
+      }
+      
+      span {
+        float: none;
+      }
+      
+      .resumePoint {
+        font-size: 0.9rem;
+        padding-right: 0;
+        float: none;
+        color: white;
+      }
+    }
+  }
+}

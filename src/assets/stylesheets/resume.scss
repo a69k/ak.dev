@@ -3,6 +3,7 @@ hr {
 }
 #intro{
   margin-top: 2rem;
+  margin-bottom: 2rem;
   font-family: space mono;
   h1{
     font-size: 2.69rem;
@@ -19,13 +20,10 @@ hr {
 }
 
 .resumeSection{
-  padding-right: 5rem;
-  padding-top: 0.69rem;
-  padding-bottom: 0.69rem;
   font-family: space mono;
-  
+  margin-bottom: 1.5rem;
   .resumeItem{
-    padding-right: 3rem;
+    padding-right: 4rem;
 
   .resumeSectionTitle{
     font-size:1.69rem;
@@ -33,16 +31,15 @@ hr {
   }
   .resumeContentTitle{
     margin-left: 2rem;
-    font-size: 1.69em;
+    font-size: 1.5rem;
     color:#ffffff;
-    margin-bottom: 0;
   }
   .resumeContent{
     margin-right: 0rem;
     margin-left: 2rem;
     font-size: 1rem;
     color:rgb(189, 187, 187);
-    line-height: 1 rem;
+    line-height:1.5rem;
   }
   span{
     margin: 0px;  
@@ -55,4 +52,61 @@ hr {
     color:white;
   }
 }
+}
+
+@media (max-width: 914px) {
+  #intro {
+    h1 {
+      font-size: 2rem;
+    }
+    
+    h2 {
+      font-size: 1rem;
+    }
+    
+    p {
+      font-size: 0.9rem;
+    }
+  }
+
+  .resumeSection {
+    padding-right: 0.5rem;
+    
+    .resumeSectionTitle {
+      font-size: 1.25rem;
+      margin-bottom: 0rem;
+    }
+    
+    .resumeItem {
+      padding-left: 0;
+      padding-right: 0;
+      
+      .resumeContentTitle {
+        margin-left: 0.25rem;
+        font-size: 0.8rem;
+        color: #ffffff;
+        margin-bottom: 0;
+      }
+      
+      .resumeContent {
+        margin-left: 0.25rem;
+        margin-top: 0.25rem;
+        font-size: 0.75rem;
+        color: rgb(189, 187, 187);
+      }
+      
+      span {
+        color:rgb(124, 124, 124);
+        float: right;
+      }
+      
+      .resumePoint {
+        font-size: 0.8rem;
+        padding-right: 0;
+        float: none;
+        color: white;
+        line-height: 1rem;
+      }
+    }
+  }
 }

@@ -29,8 +29,8 @@ export default function Resume(){
         <h2 className='resumeSectionTitle'>Education</h2><hr/>
           <div class="resumeItem">
             <h3 class="resumeContentTitle"> Ain Shams University <span>Cairo, Egypt</span></h3>
-            <p class="resumeContent">Pursuing a Bachelor of Science in Computer Science  <span>Oct. 2022 - May 2026 </span> </p>
-            <p class="resumeContent">Current GPA : 3.3 </p>
+            <p class="resumeContent">Pursuing a Bachelor of Science in Computer Science </p>
+            <p class="resumeContent">Current GPA: <u>3.3</u> </p>
           </div>
       </div>
       <div class="resumeSection">
@@ -44,9 +44,9 @@ export default function Resume(){
       <div class="resumeSection">
       <h2 className='resumeSectionTitle'>Experience</h2><hr/>
       <div class="resumeItem">
-        <p class="resumeContentTitle">OSC (Open Source Community) <span>2024 Season</span></p>
+        <p class="resumeContentTitle">OSC FCIS<span>2024 Season</span></p>
           <p class="resumeContent">Web Development Team Member </p>      
-        <p class="resumeContentTitle">Freelance Graphic Designer <span>2018 - Current</span></p>
+        <p class="resumeContentTitle">Freelance Graphic Designer <span>2018-Current</span></p>
           <p class="resumeContent">Mostly Gaming Community Related Designs</p>
         </div>
       </div>

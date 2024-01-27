@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 @font-face {
   font-family: 'trafika';
   src: url(../Fonts/trafika-sans-trial.otf) format('opentype');
 };
+@font-face {
+  font-family: space mono;
+  src: url(../Fonts/spacemono_bold_macroman/SpaceMono-Bold-webfont.woff);
+}
 :root {
-
   color-scheme: light dark;
   color: rgba(251, 248, 252, 0.87);
   background-color: rgb(23 23 23);;
@@ -37,14 +39,9 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
-.display-linebreak {
-  white-space: pre-line;
-}
-
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
     background-color: #ffffff;
   }
   a:hover {
@@ -54,3 +51,10 @@ body {
     background-color: #f9f9f9;
   }
 }
+
+@media (max-width: 914px){
+  :root{
+    margin-left:2em;
+    margin-right:2em;
+  }
+} 

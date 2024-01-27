@@ -7,7 +7,7 @@ import './assets/stylesheets/home.scss'
 
 export default function Home (){
   const [text1] = useTypewriter({
-    words: [`Hi, I'm Ahmed 👋`],
+    words: [`Hi, I'm Ahmed`],
     typeSpeed: 50
   });
   const [text2] = useTypewriter({
