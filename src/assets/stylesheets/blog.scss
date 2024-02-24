@@ -1,3 +1,31 @@
-h1{
-  font-family: space mono;
+/* BlogPage.css */
+.blog-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+  background-color: #202124; /* Dark background color */
+  padding: 20px;
+  margin: 20px;
 }
+
+.blog-card {
+  background-color: #424242; /* Dark card background color */
+  color: #ffffff; /* Text color */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 300px;
+}
+
+.blog-card h2 {
+  margin-bottom: 10px;
+}
+
+.blog-meta {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Add more styles as needed */

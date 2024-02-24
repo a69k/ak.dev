@@ -39,7 +39,6 @@ function Navbar() {
           <li><Link to="/resume">Resume</Link></li>
           <li><Link to="/blog">Blog</Link></li>
           <li><a href="https://github.com/a04k/" target="_blank" rel="noopener noreferrer">Github</a></li>
-          {/* Add your other navigation items here */}
           <li><button id="x" onClick={handleClick}>x</button></li>
         </ul>
       </nav>

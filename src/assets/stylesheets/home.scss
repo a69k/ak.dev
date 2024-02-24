@@ -1,6 +1,7 @@
 $eBlue: #240090;
 $wGrey: #868673;
 $lwGrey: #b4b4a5;
+$pg: rgb(62, 234, 202);
 
 .home{
 
@@ -27,7 +28,7 @@ $lwGrey: #b4b4a5;
     }
     #cursor{
       font-size:2.6rem;
-      color:chartreuse;
+      color:$pg;
     }
   }
 
@@ -45,9 +46,9 @@ $lwGrey: #b4b4a5;
       margin-bottom: 2em;
       a{
         color: inherit;
-        text-decoration-color: chartreuse;
+        text-decoration-color: $pg;
         &:hover{
-          color: yellowgreen;
+          color: $pg;
         }
       }
     }
@@ -107,7 +108,7 @@ $lwGrey: #b4b4a5;
             margin-right: 1rem;
           } 
           &:hover{
-            h3{color: chartreuse;}
+            h3{color: $pg;}
             p{color: $lwGrey;}
             
             
@@ -118,6 +119,7 @@ $lwGrey: #b4b4a5;
 }
 @media (max-width: 914px) {
   .home{
+
     .intro{
       h1{
         font-family: trafika;

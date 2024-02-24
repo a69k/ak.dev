@@ -1,4 +1,5 @@
 $eBlue: #240090;
+$pg: rgb(62, 234, 202);
 
 nav{
   margin-bottom:0;
@@ -17,10 +18,10 @@ nav{
   .logo{
     font-family: 'space mono';
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2.5rem;
 
     #dev{
-      color: chartreuse;
+      color: $pg;
     }
     &:hover{
       color:white;
@@ -32,6 +33,7 @@ nav{
     font-size: 1.25rem;
     display: inline-block;
     margin-right: 2rem;
+    translate: 2rem;
   }
 
   a {
@@ -40,7 +42,7 @@ nav{
     color:rgb(255, 255, 255);
 
     &:hover{
-      color: chartreuse;
+      color: $pg;
       transition: .6s;
     }
   }
@@ -51,7 +53,8 @@ nav{
     }
   }
   button{
-    visibility: hidden;
+    display: none;
+
   }
 }
 @media (max-width: 914px){
@@ -61,7 +64,7 @@ nav{
       margin-left: -5vw;
       margin-right: -5vw;
       margin-bottom: 0vw;
-      position: sticky;
+      position: sticky;      
       .logo{
         margin-left: 2.469vw;
         font-size: 2.25rem;
@@ -69,49 +72,58 @@ nav{
       ul li{
         visibility: hidden;
       button{
+        float: right;
         visibility: visible;
         margin-bottom: 4.5vh;
         font-size: 20px;
       }
     }
       
-    }
-    }
-.mobNav {
-  z-index: 1;
-  position: absolute;
-  right: 0;
-  overflow: scroll;
-  height: 35vw;
-  width: 40%;
-  border-radius: 20px;
-  background: rgb(41, 41, 41);
-  -webkit-backdrop-filter: blur(4.20px);
-  display: none;
-  margin-right: 4vw;
-  &::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar width */
   }
-
-  ul {
-    list-style: none;
-    li {
-      width: 75%;
-      background-color: rgba(70, 68, 68, 0.376);
-      padding: 15px;
-      border-radius: 20px;
-      margin-bottom: 5px;
-      margin-left: -4.5vw;
     }
-
-    a {
-      color: white;
-      text-decoration: none;
-      font-family: 'Space Mono', monospace;
-
-      &:hover {
-        color: chartreuse;
+    .mobNav {
+      overflow: scroll;
+      height: 100%;
+      border-radius: 15px;
+      background: linear-gradient(135deg, rgba(66, 66, 66, 0.252), rgba(41, 41, 41, 0.348));
+      display: none;
+      &::-webkit-scrollbar {
+        width: 0;  
       }
-    }
-  }
+    
+      ul {
+        list-style: none;
+        margin-bottom: 0px;
+
+        li {
+          width: 84%;
+          background-color: rgba(70, 68, 68, 0.376);
+          padding: 15px;
+          border-radius: 15px;
+          margin-bottom: 1vw;
+          margin-left: -2.5vw;
+          text-align: center;
+          &:last-child{
+            margin-bottom: 0px;
+          }
+        }
+          a {
+            color: white;
+            text-decoration: none;
+            font-family: 'Space Mono', monospace;
+    
+            &:hover {
+              color: chartreuse;
+            }
+          }
+          }
+        }
+@keyframes fade {
+  0%{ opacity: 0;}
+  20%{ opacity: 20;}
+  40%{ opacity: 40;}
+  60%{ opacity: 60;}
+  80%{ opacity: 80;}
+  100%{ opacity: 100;}
+
 }

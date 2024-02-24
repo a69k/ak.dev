@@ -1,12 +1,15 @@
+$pg: rgb(62, 234, 202);
+
 hr {
-  border-color: rgb(55, 108, 2);
+  border-color: rgb(51, 127, 93);
 }
+
 #intro{
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-family: space mono;
   h1{
-    font-size: 2.69rem;
+    font-size: 3rem;
     margin: 0rem;
   }
   h2{
@@ -21,37 +24,37 @@ hr {
 
 .resumeSection{
   font-family: space mono;
-  margin-bottom: 1.5rem;
-  .resumeItem{
-    padding-right: 4rem;
-
+  margin-bottom: 3rem;
   .resumeSectionTitle{
     font-size:1.69rem;
-    margin-bottom: 0;
+    margin-bottom: 0px;
   }
-  .resumeContentTitle{
-    margin-left: 2rem;
-    font-size: 1.5rem;
-    color:#ffffff;
+  .resumeItem{
+    padding-right: 2rem;
+    .resumeContentTitle{
+      margin-left: 1rem;
+      font-size: 1.5rem;
+      color:#ffffff;
+      margin-bottom: 0px;
+    }
+    .resumeContent{
+      margin-right: 0rem;
+      margin-left: 1rem;
+      font-size: 1rem;
+      color:rgb(189, 187, 187);
+      line-height:1.25rem;
+    }
+    span{
+      margin: 0px;  
+      float:right;
+    }
+    .resumePoint{
+      font-size:1.25rem;
+      padding-right: 0rem;
+      float:none;
+      color:white;
+    }
   }
-  .resumeContent{
-    margin-right: 0rem;
-    margin-left: 2rem;
-    font-size: 1rem;
-    color:rgb(189, 187, 187);
-    line-height:1.5rem;
-  }
-  span{
-    margin: 0px;  
-    float:right;
-  }
-  .resumePoint{
-    font-size:1.25rem;
-    padding-right: 0rem;
-    float:none;
-    color:white;
-  }
-}
 }
 
 @media (max-width: 914px) {
@@ -83,7 +86,7 @@ hr {
       
       .resumeContentTitle {
         margin-left: 0.25rem;
-        font-size: 0.8rem;
+        font-size: 0.85rem;
         color: #ffffff;
         margin-bottom: 0;
       }
@@ -91,7 +94,7 @@ hr {
       .resumeContent {
         margin-left: 0.25rem;
         margin-top: 0.25rem;
-        font-size: 0.75rem;
+        font-size: 0.8rem;
         color: rgb(189, 187, 187);
       }
       
@@ -101,7 +104,7 @@ hr {
       }
       
       .resumePoint {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         padding-right: 0;
         float: none;
         color: white;

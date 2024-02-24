@@ -2,6 +2,7 @@ $nGreen: #b7d435;
 $eBlue: #240090;
 $wGrey: #83836c;
 $lwGrey: #AEAE9D;
+$pg: rgb(62, 234, 202);
 
 .footer{
   margin-top: 5vh;
@@ -13,7 +14,7 @@ $lwGrey: #AEAE9D;
     p{
       margin-bottom:0;
       font-size: 0.85rem;
-      color: $nGreen;
+      color: $pg;
     }
   }
   .footerIcons{

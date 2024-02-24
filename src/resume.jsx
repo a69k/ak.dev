@@ -2,28 +2,25 @@ import React from 'react';
 import './assets/stylesheets/resume.scss'
 import Navbar from './Components/navbar';
 import Footer from './Components/footer';
-import { useTypewriter } from 'react-simple-typewriter';
+//import { useTypewriter } from 'react-simple-typewriter';
 import { Tooltip } from 'react-tooltip'
 
 
 export default function Resume(){
 
-  const [text1] = useTypewriter({
+/* const [text1] = useTypewriter({
     words: [`Ahmed Khaled`],
     typeSpeed: 50
   });
+*/
 
   return (
     <div>
       <Navbar/>
       <div id="intro">
-    
-      <h1 data-tip='react-tooltip'>{text1}</h1>
+      <h1 data-tip='react-tooltip'>Ahmed Khaled</h1>
       <Tooltip id="my-tooltip" />
-      <h2>Software Engineer & Web Developer </h2> 
-      <p>Based in Cairo, Egypt</p>
-
-
+      <h2>Computer Science Student & Junior Web Developer </h2> 
       </div>
       <div class="resumeSection">
         <h2 className='resumeSectionTitle'>Education</h2><hr/>
@@ -63,7 +60,7 @@ export default function Resume(){
         <h2 className='resumeSectionTitle'>Hobbies</h2><hr/>
             <p class="resumeContent"><span class="resumePoint">Programming:</span> i mostly do fun projects to challenge myself and learn</p>
             <p class="resumeContent"><span class="resumePoint">Motorsport:</span> passionate about everything motorsports especially formula 1</p>
-            <p class="resumeContent"><span class="resumePoint">Gaming:</span> a bit of fun (sometimes infuriating)</p>
+            <p class="resumeContent"><span class="resumePoint">Gaming:</span> a bit of competitive fun (sometimes rage) </p>
         </div>
       </div>
     <Footer/>
